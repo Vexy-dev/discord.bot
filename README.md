@@ -14,3 +14,5 @@ API integration: use the Discord API to fetch information about users, channels,
 Event management: manage events such as when a user joins a voice channel or sends a message on the server.
 Automated messages: create automated messages for your users at regular intervals or in response to certain events.
 This library is an excellent and reliable choice for anyone looking to create bots for Discord using API 10. With clear documentation and helpful examples, you can create custom bots to meet the unique needs of your Discord community.
+
+Please note that this library is currently under development and may be subject to changes and updates. We appreciate your patience and feedback as we work to improve and enhance its features and functionality.
