@@ -51,7 +51,7 @@ Quick Example
 .. code:: py
 
     import asyncio
-    from discord.bot import MeuBot
+    from discord.bot import ClientApp
 
     TOKEN = 'BOT TOKEN HERE'
     GUILD_ID = guild_id_here
@@ -61,7 +61,7 @@ Quick Example
         await ctx.send(content="Mensagem com botão:")
 
     async def main():
-        async with MeuBot(TOKEN, aplication_id) as bot:
+        async with ClientApp(TOKEN, aplication_id) as bot:
             hello_command = Command("hello", hello_func, "Respond with 'Hello, world!'")
             bot.add_command(hello_command)
             
