@@ -69,10 +69,10 @@ packages = [
 setup(
 	name='discord.py',
 	author='Rapptz',
-	url='https://github.com/Rapptz/discord.py',
+	url='https://github.com/BosonsHiggs/discord.bot',
 	project_urls={
-		'Documentation': 'https://discordpy.readthedocs.io/en/latest/',
-		'Issue tracker': 'https://github.com/Rapptz/discord.py/issues',
+		'Documentation': 'None',
+		'Issue tracker': 'None',
 	},
 	version=version,
 	packages=packages,
@@ -85,12 +85,11 @@ setup(
 	extras_require=extras_require,
 	python_requires='>=3.9.0',
 	classifiers=[
-		'Development Status :: 5 - Production/Stable',
+		'Development Status :: q - Production/Stable',
 		'License :: OSI Approved :: MIT License',
 		'Intended Audience :: Developers',
 		'Natural Language :: English',
 		'Operating System :: OS Independent',
-		'Programming Language :: Python :: 3.8',
 		'Programming Language :: Python :: 3.9',
 		'Programming Language :: Python :: 3.10',
 		'Topic :: Internet',
