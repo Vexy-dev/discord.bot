@@ -1,16 +1,6 @@
 discord.bot
 ==========
 
-.. image:: https://discord.com/api/guilds/336642139381301249/embed.png
-   :target: https://discord.gg/r3sSKJJ
-   :alt: Discord server invite
-.. image:: https://img.shields.io/pypi/v/discord.py.svg
-   :target: https://pypi.python.org/pypi/discord.py
-   :alt: PyPI version info
-.. image:: https://img.shields.io/pypi/pyversions/discord.py.svg
-   :target: https://pypi.python.org/pypi/discord.py
-   :alt: PyPI supported Python versions
-
 This is a Python-based API wrapper for Discord that is modern, user-friendly, packed with features, and designed to be async-ready. It provides a comprehensive and intuitive way to interact with Discord's API and build applications such as bots, integrations, and other tools.
 
 Key Features
