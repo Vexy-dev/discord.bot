@@ -78,4 +78,5 @@ You can find more examples in the examples directory.
 Links
 ------
 
-- `No links!`_
+- `Aril Ogai#5646`_
+- `Vexy#1212`
