@@ -133,7 +133,7 @@ class Context:
 					await response.json()
 
 
-class MeuBot:
+class ClientApp:
 	def __init__(self, token, client_id):
 		self.token = token
 		self.session = aiohttp.ClientSession()

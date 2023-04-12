@@ -1,5 +1,5 @@
 import asyncio
-from discord.bot import MeuBot, Command, Embed, SelectMenuBuilder
+from discord.bot import ClientApp, Command, Embed, SelectMenuBuilder
 
 TOKEN = 'MTAyNTgwMTAyOTU2NjA3MDgyNA.GiVUVh.2Flq4ppoN8HTO6g8LKvQEUPhAEnvQKR8oCgRb0'
 GUILD_ID = "898335285719470080"
@@ -38,7 +38,7 @@ async def hello_func(ctx):
 	await ctx.send(content="Mensagem com botão:", embed=embed, components=[select_menu], ephemeral=False)
 
 async def main():
-	async with MeuBot(TOKEN, aplication_id) as bot:
+	async with ClientApp(TOKEN, aplication_id) as bot:
 		hello_command = Command("hello", hello_func, "Respond with 'Hello, world!'")
 		bot.add_command(hello_command)
 		bot.on_button_click = handle_button_click  # Associe o evento ao manipulador
