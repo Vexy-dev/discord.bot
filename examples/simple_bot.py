@@ -1,9 +1,9 @@
 import asyncio
 from discord.bot import ClientApp, Command, Embed, SelectMenuBuilder
 
-TOKEN = 'MTAyNTgwMTAyOTU2NjA3MDgyNA.GiVUVh.2Flq4ppoN8HTO6g8LKvQEUPhAEnvQKR8oCgRb0'
-GUILD_ID = "898335285719470080"
-aplication_id = 1025801029566070824
+TOKEN = 'TOKEN HERE'
+GUILD_ID = GUILD_ID_HERE
+aplication_id = Application_ID_Here
 
 components = [
     {
